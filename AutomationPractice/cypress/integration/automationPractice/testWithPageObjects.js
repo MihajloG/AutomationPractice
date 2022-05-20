@@ -14,7 +14,7 @@ describe('Test with page object', () => {
     })
     it('Authorization of new user', () => {
         navigateTo.authorizationPage()
-        onAuthorizationPage.createNewAccountWithEmail("aswweeuuuisw@gmail.com")
+        onAuthorizationPage.createNewAccountWithEmail("auuuisw@gmail.com")
         cy.wait(7000)
         onAuthorizationFormPage.selectGender(1)
         onAuthorizationFormPage.typeName('Mihajlo')
